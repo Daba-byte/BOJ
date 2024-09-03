@@ -1,5 +1,5 @@
 def find_largest_piece(width, height, cuts):
-    # 가로, 세로 자를 인덱스 저장
+    # 가로, 세로 자를 인덱스 저장 
     width_cuts = []
     height_cuts = [] 
 
