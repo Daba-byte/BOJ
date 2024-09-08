@@ -1,5 +1,4 @@
 # 못 풀었음.. 런타임 에러..
-
 import sys
 input = sys.stdin.read
 
@@ -68,7 +67,7 @@ def micro_dust(R, C, board): # 미세먼지 계산
                 total_dust += board[i][j]
     return total_dust
 
-data = input().splitlines() # splitlines 처음 써 보는데 좋네 기억하자
+# data = input().splitlines() # splitlines 처음 써 보는데 좋네 기억하자
 R, C, T = map(int, data[0].split())
 board = [list(map(int, line.split())) for line in data[1:R+1]]
 

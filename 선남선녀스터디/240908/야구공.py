@@ -1,5 +1,5 @@
 # 야구는 엘지..
-# 이거도 못품.. 시간초과...
+# 파이파이로 돌리면 통과
 from itertools import permutations
 
 def play_game(order, innings):
